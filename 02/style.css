@@ -597,7 +597,7 @@ head {
   .te {display: none;}
   .im1 {display: none;}
   .j {display: none;}
-  .hede {width: 20%; background-color: yellow;}
+  .hede {width: 20%;}
   .big {justify-content: flex-start;}
   .c4 {display: none;}
   .c5 {display: none;}
@@ -606,39 +606,33 @@ head {
   .c8 {display: none;}
   .c9 {display: none;}
   .big {
-    display: flex;
-    flex-direction: row;
+    position: absolute;
+    left: -35%;
+    top: 1%;
+    width: 65%;
     background-color: tomato;
-    justify-content: space-between;
-    align-items: flex-end;
-    padding: 0px;
-    flex-wrap: nowrap;
-    margin: 0px;
-  }
-  
-  .big p {
-  
   }
 
-  
-  .b1 {
-  }
-  
-  .b9 {
-  }
-  
   .l_big {
+    position: absolute;
+    left: -25%;
+    top: 100%;
+    width: 60%;
+    background-color: turquoise;
   }
-  
+
   .l_big img {
+    width: 45%;
   }
-  
+
   .t_big {
+    position: absolute;
+    left: -35%;
+    width: 5%;
+    font-size: 60%;
+    top: 35%;
+    background-color: violet;
   }
-  
-  .c {
-  }
-  
 }
 
 @media screen and (min-width: 478px) and (max-width: 770px) {

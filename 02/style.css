@@ -12,15 +12,17 @@
   font-weight: normal;
 }
 
-* {
+/* {
   max-width: 1255px;
-}
+  pourquoi un max-width ici
+}*/
 
 body {
   background-color: #C0DAE5;
   box-sizing: border-box;
 
 }
+.ig {display: none;}
 
 .square {
   display: flex;
@@ -30,7 +32,43 @@ body {
   box-sizing: border-box;
 }
 
-head {
+
+.hede {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-image: url('source/Background.png');
+  background-clip: content-box;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.nav-bar {  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  padding-left: 35%;
+  padding-right: 6%;
+}
+.nav-menu {  
+  display: flex;
+  flex-direction: row;
+}
+
+.sub_container{
+  /* pour ceci à partir d'une taille donnée tu fais un flex-wrap: ;*/
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-right: 6%;
+  padding-left:35%
+}
+
+/*head {
+  je ne vois pas cette balise
   position: absolute;
   display: flex;
   flex-direction: row;
@@ -49,6 +87,16 @@ head {
   vertical-align: middle;
   padding: 20px;
   margin-top: 15px;
+}*/
+.b1{
+  align-items: center;
+}
+.big{
+  display: flex;
+  flex-direction:row;
+}
+.big * {
+  padding: 10px
 }
 
 .container {
@@ -700,7 +748,7 @@ head {
   .bot {width: 18%;}
   .ph {width: 40%;
   padding-left: 9%;}
-}*/
+}
 
 @media screen and (min-width: 914px) {
   .ig {display: none;}
@@ -760,14 +808,14 @@ head {
   .c5 {
     display: flex;
     margin-top: -35%;
-    /*z-index: 2;*/
+    /*z-index: 2;
   }
   
   .c6 {
     display: flex;
     margin-top: -4.5%;
     /*padding-bottom: 25%;*/
-    /*z-index: 3;*/
+    /*z-index: 3;
   }
 
   .c7 {
@@ -951,14 +999,14 @@ head {
     flex-basis: 27%;
     margin: 2%;
     padding-top: 7%;
-    /*flex-wrap: wrap;*/
+    /*flex-wrap: wrap;
   }
   .car div {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     width: 100%;
-    /*flex-wrap: wrap;*/
+    /*flex-wrap: wrap;
   }
   .t1 {
     display: flex;
@@ -1038,4 +1086,4 @@ head {
     flex-direction: row;
     justify-content: flex-end;
   }
-}
+}*/
